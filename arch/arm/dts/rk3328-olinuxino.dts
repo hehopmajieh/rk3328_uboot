@@ -12,7 +12,7 @@
 
 	chosen {
 		stdout-path = &uart2;
-		bootargs = "earlycon=uart8250,mmio32,0xff130000 swiotlb=1 loglevel=2 coherent_pool=1m earlyprintk console=ttyS2,1500000n8 rw root=PARTUUID=b921b045-1d rootfstype=ext4 init=/sbin/init rootwait"
+		bootargs = "earlycon=uart8250,mmio32,0xff130000 swiotlb=1 loglevel=2 coherent_pool=1m earlyprintk console=ttyS2,1500000n8 rw root=PARTUUID=b921b045-1d rootfstype=ext4 init=/sbin/init rootwait";
 	};
 
 	gmac_clkin: external-gmac-clock {

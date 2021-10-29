@@ -96,6 +96,7 @@ dtb-$(CONFIG_ROCKCHIP_RK3288) += \
 dtb-$(CONFIG_ROCKCHIP_RK3328) += \
 	rk3328-evb.dtb \
 	rk3328-rock64.dtb \
+	rk3328-olinuxino.dtb \
 	rk3328-rock-pi-e.dtb
 
 dtb-$(CONFIG_ROCKCHIP_RK3368) += \
